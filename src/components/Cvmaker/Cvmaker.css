@@ -1,0 +1,136 @@
+.cvmaker-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+.cvmaker-form{
+width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    overflow-y:scroll ;
+    
+
+ 
+}
+.pic{
+    background-color: #eaeaea;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic:hover{
+border: 1px solid #2fbe6e;
+}
+.camera{
+    position: absolute;
+    font-size: 32px !important;
+    color: #2fbe6e;
+}
+.cvmaker-input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input-text{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.cv-input{
+    border: none;
+    background-color: #eaeaea;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.cv-input:focus{
+outline-color: #2fbe6e;
+}
+.add-icon{
+    color: #2fbe6e;
+    margin-bottom:-6px ;
+}
+.cvpreview-wrapper{
+    margin-top: 20px;
+    background-color: #212121 ;
+    width: 30%;
+    height: 80vh;
+}
+.cv-left-bar{
+    background-color: #fbd40d;
+    height: 80vh;
+    width: 30%;
+}
+.show-img{
+    width: 60px;
+    height:60px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin: 16px;
+    margin-bottom: 0;
+    padding: 4px;
+}
+h6{
+    margin-top: 0px;
+    padding: 10px ;
+    font-family: 'Nova Square', sans-serif;
+}
+.h-line{
+    margin: -34px 4px 0px 4px;
+    background-color: #212121;
+}
+.Cv-name{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.contact-header{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-icon{
+    font-size: 18px !important;
+    margin-bottom: -10px;
+    margin-right: 2px ;
+}
+.contact-data>p{
+    font-size: 8px;
+    
+}
+.phone-icon{
+    font-size: 8px !important;
+    padding-right: 2px;
+
+}
+.cv-header{
+    width: 250px;
+    height: 100px;
+    background-color: #fbd40d;
+    position: absolute;
+    right: 66px;
+    top: 90px;
+}
+.cv-header>h1{
+    padding: 10px;
+    padding-top: 0;
+    font-family: 'Nova Square', sans-serif;
+}
+.cv-header>h3{
+    margin-top: -9px;
+    padding: 10px 10px 10px 10px;
+}
+.cv-header>hr{
+
+  margin: -24px 10px 0px 10px;
+}
+
+
+
+
+
+

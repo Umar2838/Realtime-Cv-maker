@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #fff !important;
+}
+.loginbtn{
+    color: #2fbe6e !important;
+    font-weight: 600;
+    border: 1px solid #2fbe6e !important;
+    transition: 0.4s !important;
+margin-right: 10px !important;
+  }
+.loginbtn:hover{
+background-color: #2fbe6e !important;
+color: #fff !important;
+
+  }
