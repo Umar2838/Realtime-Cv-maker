@@ -10,9 +10,16 @@ width: 50%;
     margin-top: 20px;
     padding: 10px;
     overflow-y:scroll ;
-    
-
- 
+}
+.personal-details-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.education-main{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
 }
 .pic{
     background-color: #eaeaea;
@@ -45,6 +52,7 @@ border: 1px solid #2fbe6e;
     background-color: #eaeaea;
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
+    margin-top: 10px;
     cursor: pointer;
 }
 .cv-input:focus{
@@ -55,13 +63,15 @@ outline-color: #2fbe6e;
     margin-bottom:-6px ;
 }
 .cvpreview-wrapper{
-    margin-top: 20px;
-    background-color: #212121 ;
+    margin-top:45px;
+    background-color: #fff;
     width: 30%;
+    max-width: 500px;
     height: 80vh;
+    border: 1px solid #000;
 }
 .cv-left-bar{
-    background-color: #fbd40d;
+    background-color: #000;
     height: 80vh;
     width: 30%;
 }
@@ -79,6 +89,7 @@ h6{
     margin-top: 0px;
     padding: 10px ;
     font-family: 'Nova Square', sans-serif;
+    color: #fff;
 }
 .h-line{
     margin: -34px 4px 0px 4px;
@@ -92,28 +103,86 @@ h6{
 .contact-header{
     display: flex;
     justify-content: space-between;
+    
 }
 .contact-icon{
     font-size: 18px !important;
     margin-bottom: -10px;
-    margin-right: 2px ;
+    margin-right: 2px;
+    color: #fff;
 }
 .contact-data>p{
     font-size: 8px;
+    color: #fff;
     
 }
-.phone-icon{
-    font-size: 8px !important;
-    padding-right: 2px;
+.eductaion-data{
+   margin-top: 40px;
+}
+.education-info{
+    display: flex;    
+}
 
+.vertical-text {
+    font-weight: bolder;
+    font-size: 14px;
+    position: absolute;
+    transform:rotate(-90deg);
+    color: #fbd40d;
+    margin-top: 5px;
+    margin-left: -4px;
+
+  }
+  .add-edu-icon{
+    /* padding-top: 10px; */
+  }
+  .add-edu-btn{
+    margin-top: 10px;
+border-radius: 7px;
+border: 1px solid #000;
+background-color: #FFF;
+  }
+  .add-edu-btn:hover{
+    border: 2px solid #2fbe6e;
+  }
+.edu-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.schoolname{
+    color: #FFF;
+    font-size: 8px;
+    margin-left: 20px;
+    margin-top: -30px;     
+}
+.degreename{
+color: #FFF;
+display: flex;
+justify-content: space-evenly;
+font-size: 6px;
+margin-left: 3px;
+}
+.phone-icon{
+    font-size: 10px !important;
+    padding-right: 2px;
+   margin-left: -2px;
+    color: #fbd40d;
+}
+.schoolCity{
+    color: #fbd40d;
+    font-size: 7px;
+    padding-top: 2px;
+    margin-left: 20px;
 }
 .cv-header{
-    width: 250px;
+    width: 264.5px;
     height: 100px;
     background-color: #fbd40d;
     position: absolute;
-    right: 66px;
-    top: 90px;
+    right: 59.5px;
+
 }
 .cv-header>h1{
     padding: 10px;
@@ -128,9 +197,99 @@ h6{
 
   margin: -24px 10px 0px 10px;
 }
+.printBtn{
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    top: 80px;
+    right: 5px;
+    color: #fff;
+    background-color: #2fbe6e;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+.printBtn:hover{
+    background-color: #fff;
+    border: 1px solid #2fbe6e;
+    color: #2fbe6e;
+}
+.graduation-div{
+display: flex;
+}
+.graduation-div>.cv-input:nth-child(2){
+    margin-left: 10px;
+}
+.open-input{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cv-input>select{
+    border: none;
+    outline: none;
+    background-color: #eaeaea;
+ width: 160px;
+}
+.professional-main{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.prof-input{
+    width: 90%;
+    resize: none;
+    height: 30vh;    
+}
+.professional-preview{
+    position: absolute;
+    margin-top: 103px;
+    margin-left: 117px;
+    width: 260px;
+}
+.work-preview{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 117px;
+    width: 260px;
+}
+.workyear{
+    display: flex;
+    margin-top:12px;
+}
+.vertical-text-work {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: -10px;
+    transform: rotate(-90deg);
+    color: #000;
+    text-align:center;
+    
+  }
+  .work-line{
+    width: 1px;
+    background-color: #000;
+    margin-left: 6px;
+  }
+  .work-details{
+    margin-left: 10px;
+    font-size: 10px;
+  }
+.prof-main{
+    display: flex;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    width: 250px;
+}
+.profdetails{
+font-size: 12px;
+width: 249px;
+overflow-wrap:break-word;
+text-align: justify;
+height:20vh;
+text-wrap: wrap;
+}
 
-
-
-
-
-
+.proficon{
+color: #000;
+margin-top: -4px;
+margin-left: 100px;
+}
